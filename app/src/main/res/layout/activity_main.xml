@@ -59,10 +59,16 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/loginBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="login" />
+
+            <Button
+                android:id="@+id/create_tableBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="식탁 생성" />
         </LinearLayout>
 
     </LinearLayout>
